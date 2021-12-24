@@ -11,7 +11,7 @@ def main():
     
     puzzle_dimension = int(input("What is the dimension of the puzzle (exple : 3, 4 , ...) : "))
     
-    initial_sequence = input("\nWhat is the initial state of the puzzle ? : ")
+    initial_sequence = input("\nWhat is the initial state of the puzzle ? (exple 1 0 2 3 4 5 6 7 8 for an 8-puzzle): ")
     initial_state = list(map(int, initial_sequence.split(" ")))
     
     print("\nWhat kind of search algorithms would you like to use ? : ")
